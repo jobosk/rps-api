@@ -23,13 +23,13 @@ Once the move is selected, the play can be revealed simultaneously for both play
 
 This action will lock the player's move to start a new play. If there was already another ongoing play or the selected move is not a valid one, the action will be revoked.
 
-**POST** `/play/\<move\>`
+**POST** `/play/<move>`
 ```
 No body
 ```
 
 Headers:
-> **X-USER-ID**: *UUID v4 of the current player*
+> **X-USER-ID**: *UUID v4 of the user playing*
 
 ### Resolve active play
 
@@ -38,4 +38,4 @@ This action will resolve the current play (if there is one), and will determine 
 **GET** `/play/reveal`
 
 Headers:
-> **X-USER-ID**: *UUID v4 of the current player*
+> **X-USER-ID**: *UUID v4 of the user playing*
