@@ -33,7 +33,7 @@ Headers:
 
 ### Resolve active play
 
-This action will resolve the current play (if there is one), and will determine if either the player or the machine won (or if it's a tie), based on the move previously selected by the player.
+This action will resolve the current play (if there is one), and will determine if either the player or the machine won (or if it's a tie), based on the move previously selected by the player and a random move assigned to the machine.
 
 **GET** `/play/reveal`
 
