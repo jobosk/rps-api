@@ -125,7 +125,9 @@
         "enum": [
           "ROCK",
           "PAPER",
-          "SCISSORS"
+          "SCISSORS",
+          "LIZARD",
+          "SPOCK"
         ]
       },
       "OutcomeCodeEnum": {
